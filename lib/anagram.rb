@@ -9,13 +9,8 @@ class Anagram
   end
 
   def match(words)
-    #anagram_array =[]
-    #@words = words
     words.select do |word|
-       word.split("").sort == @word.split("").sort
-      #anagram_array  << word
-      #end
-      #binding.pry
+    word.split("").sort == @word.split("").sort
     end
     #anagram_array
   end
