@@ -18,5 +18,5 @@ class Anagram
       #binding.pry
     end
     #anagram_array
-  #end
+  end
 end
