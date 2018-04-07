@@ -16,7 +16,7 @@ class Anagram
       else
         binding.pry
         @words = []
-        @words
+        
       end
     end
   end
