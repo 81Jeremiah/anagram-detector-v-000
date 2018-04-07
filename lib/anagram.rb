@@ -14,7 +14,7 @@ class Anagram
       if word.split("").sort == @word.split("").sort
         word
       else
-        binding.pry
+      #  binding.pry
         @words = []
       
       end
