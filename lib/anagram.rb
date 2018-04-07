@@ -14,7 +14,7 @@ class Anagram
     words.select do |word|
        word.split("").sort == @word.split("").sort
       #anagram_array  << word
-      end
+      #end
       #binding.pry
     end
     #anagram_array
