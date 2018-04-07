@@ -12,11 +12,11 @@ class Anagram
     anagram_array =[]
     @words = words
     @words.each do |word|
-      word.split("").sort == @word.split("").sort
+      if word.split("").sort == @word.split("").sort
       anagram_array  << word
     end
       #binding.pry
-    
+    end
     anagram_array
   end
    #takes the letter in
