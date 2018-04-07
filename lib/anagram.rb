@@ -16,7 +16,7 @@ class Anagram
       anagram_array  << word
     end
       #binding.pry
-    end
+    
     anagram_array
   end
    #takes the letter in
