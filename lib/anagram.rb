@@ -9,16 +9,14 @@ class Anagram
   end
 
   def match(words)
-    anagram_array =[]
-    @words = words
-    @words.each do |word|
+    #anagram_array =[]
+    #@words = words
+    words.select do |word|
       if word.split("").sort == @word.split("").sort
-      anagram_array  << word
-    end
+      #anagram_array  << word
+      end
       #binding.pry
     end
-    anagram_array
-  end
-   #takes the letter in
-
+    #anagram_array
+  #end
 end
