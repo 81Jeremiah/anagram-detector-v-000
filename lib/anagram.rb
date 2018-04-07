@@ -15,8 +15,8 @@ class Anagram
       if word.split("").sort == @word.split("").sort
       anagram_array  << word
     end
-      
-      #binding.pry
+
+      binding.pry
     end
     anagram_array
   end
