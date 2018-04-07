@@ -15,9 +15,10 @@ class Anagram
       if word.split("").sort == @word.split("").sort
       anagram_array  << word
     end
-      anagram_array
+      
       #binding.pry
     end
+    anagram_array
   end
    #takes the letter in
 
