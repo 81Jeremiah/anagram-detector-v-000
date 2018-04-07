@@ -9,15 +9,15 @@ class Anagram
   end
 
   def match(words)
-    #anagram_array =[]
+    anagram_array =[]
     @words = words
-    @words.collect do |word|
+    @words.each do |word|
       if word.split("").sort == @word.split("").sort
-      #anagram_array  << word
+      anagram_array  << word
     end
       #binding.pry
     end
-    #anagram_array
+    anagram_array
   end
    #takes the letter in
 
